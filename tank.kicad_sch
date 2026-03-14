@@ -5,6 +5,16 @@
 	(uuid "7245ab6d-141f-4ee3-9edf-0ce22b32345b")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 105.41 82.55) (xy 132.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a58d63-dbfe-4348-971e-37f446d1dfa0")
+	)
 	(sheet
 		(at 132.08 77.47)
 		(size 44.45 31.75)
@@ -37,6 +47,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 132.08 82.55 180)
+			(uuid "5a14ac97-c858-4de9-9397-eba1f658b113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -181,6 +201,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PWM_MG" input
+			(at 132.08 135.89 180)
+			(uuid "bb0ef884-f9be-4d2f-a7d8-c573af37611a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Direction_MD" input
+			(at 176.53 142.24 0)
+			(uuid "b7d31331-4faa-4005-94cb-95c8f6e0cfde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Direction_MG" input
+			(at 132.08 142.24 180)
+			(uuid "b052b668-4340-430e-ba31-cd24941f4d22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_MD" input
+			(at 176.53 135.89 0)
+			(uuid "60b41ae3-e95f-4963-a8c2-424f95a947f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
