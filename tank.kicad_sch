@@ -1030,6 +1030,16 @@
 		)
 		(uuid "f5bafd43-c4b8-4dd4-a1a8-5ab0e8ee8d07")
 	)
+	(label "USB_D-"
+		(at 68.58 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1875e0ca-c0bd-430a-98cb-6c5bde7ed16f")
+	)
 	(label "VBUS_USB"
 		(at 67.31 86.36 0)
 		(effects
@@ -1080,6 +1090,16 @@
 		)
 		(uuid "85caa518-4290-4a7c-a006-969c9b1bc058")
 	)
+	(label "USB_D+"
+		(at 68.58 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94bec88d-2083-4aba-9f14-c354092f3b9a")
+	)
 	(label "USB_CC1"
 		(at 67.31 80.01 0)
 		(effects
@@ -1089,28 +1109,6 @@
 			(justify left bottom)
 		)
 		(uuid "c4c3ab09-13f0-44ae-a134-50ea2dff13b8")
-	)
-	(hierarchical_label "USB_D-"
-		(shape bidirectional)
-		(at 68.58 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ada61b1-136c-4cdf-9b57-04b1a1c8ecd2")
-	)
-	(hierarchical_label "USB_D+"
-		(shape bidirectional)
-		(at 68.58 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f97008e-225f-4369-b2f1-4da7b3b07143")
 	)
 	(symbol
 		(lib_id "power:GND")
