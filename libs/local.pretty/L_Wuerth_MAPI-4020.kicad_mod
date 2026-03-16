@@ -1,0 +1,154 @@
+(footprint "L_Wuerth_MAPI-4020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Wuerth, MAPI-4020, 4.1x4.1x2.1mm, (https://www.we-online.com/en/components/products/WE-MAPI?kicad), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "Würth -SMT")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "585c8df3-5975-4a0f-bb2c-61f34f0cbdee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wuerth_MAPI-4020"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "e4587bbe-8822-4cd2-89e5-42340ac0eafe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62ed670e-aed3-46c5-aefa-47f98ad31827")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f56f059-9a43-444e-b3b1-750a8410e707")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.16 -2.16)
+		(end 2.16 -2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2378da75-d031-472e-ac41-ca7007a4e59c")
+	)
+	(fp_line
+		(start -2.16 2.16)
+		(end -2.16 -2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aecfcad1-85c7-41fb-86e0-a8daa4de68c4")
+	)
+	(fp_line
+		(start 2.16 -2.16)
+		(end 2.16 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a6514ad-82cd-4f55-94a9-489ccd937368")
+	)
+	(fp_line
+		(start 2.16 2.16)
+		(end -2.16 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c679c996-2c6f-4008-bbc9-19a79c45ea46")
+	)
+	(fp_rect
+		(start -2.3 -2.3)
+		(end 2.3 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7dd69920-3e5f-45aa-9d9e-ada249b0e079")
+	)
+	(fp_rect
+		(start -2.05 -2.05)
+		(end 2.05 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f0b2c40a-cb6e-4941-a229-b55fbb14949a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "085919c8-5ae2-474a-95b3-776e4f3a6972")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.185 0)
+		(size 0.98 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ee50b0fd-6df3-455e-9a5d-dccbb1da7b97")
+	)
+	(pad "2" smd roundrect
+		(at 1.185 0)
+		(size 0.98 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "98f9a00d-83ba-4a60-8fae-f4da01c4f55f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_MAPI-4020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
