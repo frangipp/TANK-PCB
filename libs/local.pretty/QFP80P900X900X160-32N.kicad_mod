@@ -51,24 +51,14 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.65 -3.65)
-		(end -3.4 -3.65)
+		(start -3.8 -3.4)
+		(end -3.4 -3.4)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "1a0f4758-0bcd-42d6-8c43-5e0a614c4028")
-	)
-	(fp_line
-		(start -3.65 -3.4)
-		(end -3.65 -3.65)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "eb23c752-db36-4407-bf57-a2511aa2a7c3")
+		(uuid "4328a8dc-a2ac-4483-a063-11dc3402e4fb")
 	)
 	(fp_line
 		(start -3.65 3.65)
@@ -79,6 +69,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "914e59af-8c0e-47fb-aeb7-7b2f5bae08a8")
+	)
+	(fp_line
+		(start -3.4 -3.8)
+		(end -3.8 -3.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ac24aa58-7395-41d5-84e0-e139c1e6daa3")
+	)
+	(fp_line
+		(start -3.4 -3.4)
+		(end -3.4 -3.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a38ad2a0-b9c3-426a-987d-b0d3e433c16e")
 	)
 	(fp_line
 		(start -3.4 3.65)
@@ -129,17 +139,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "76b1a241-03db-4488-8411-6e4d233b213c")
-	)
-	(fp_circle
-		(center -5.7 -2.8)
-		(end -5.6 -2.8)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "03307ce2-249c-4916-b5de-7b3e78dd9128")
 	)
 	(fp_line
 		(start -5.21 -5.21)
@@ -220,17 +219,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "7f7c7bcc-d204-4ef0-8721-34ad6314bbd4")
-	)
-	(fp_circle
-		(center -5.7 -2.8)
-		(end -5.6 -2.8)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "e2d248e4-e8cb-427a-a51b-181ece8c0c2e")
 	)
 	(pad "1" smd roundrect
 		(at -4.18 -2.8)
@@ -489,4 +477,15 @@
 		(uuid "bc4b220d-7153-46ce-9ef8-a023f7867387")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/local3D/STM32G431KBT6.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

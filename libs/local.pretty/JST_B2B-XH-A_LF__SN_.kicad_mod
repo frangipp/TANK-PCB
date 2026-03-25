@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "JST_B2B-XH-A_LF__SN_"
-		(at 8.75 4.76 0)
+		(at 0 4.7 0)
 		(layer "F.Fab")
 		(uuid "b6794e8b-590e-40b5-978a-fe151a390bee")
 		(effects
@@ -89,17 +89,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "de04de79-d92e-44af-a05f-dde693aeabd4")
-	)
-	(fp_circle
-		(center 4.44 0.525)
-		(end 4.54 0.525)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "35a3c461-08a9-45b4-9dbe-a6284e082b7e")
 	)
 	(fp_line
 		(start -3.95 -3.125)
@@ -181,17 +170,6 @@
 		(layer "F.Fab")
 		(uuid "883b9d4e-ebe8-40b1-856e-007783feeb86")
 	)
-	(fp_circle
-		(center 4.44 0.525)
-		(end 4.54 0.525)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "8169ad81-b32d-4c84-9894-83a33b83e2e5")
-	)
 	(pad "1" thru_hole rect
 		(at 1.25 0.525)
 		(size 1.575 1.575)
@@ -211,4 +189,15 @@
 		(uuid "325f8cf1-95d6-4895-8473-bf50eb76792a")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/local3D/B2B-XH-A--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

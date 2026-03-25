@@ -1008,4 +1008,15 @@
 		(uuid "88e2b0db-a70a-41d7-8af7-a1bd5b8b30c2")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/local3D/BQ76905RGRR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

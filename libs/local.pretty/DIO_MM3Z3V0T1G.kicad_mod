@@ -240,19 +240,19 @@
 		(layer "F.Fab")
 		(uuid "20f1d39e-c12a-4f08-9c55-e0fb73cee88f")
 	)
-	(pad "A" smd rect
-		(at 1.1125 0)
-		(size 0.625 0.83)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "c2aded5f-88bf-4249-bc7c-2ea925ca9a37")
-	)
-	(pad "K" smd rect
+	(pad "1" smd rect
 		(at -1.1125 0)
 		(size 0.625 0.83)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "ffc7b802-7b23-480b-88dc-334c40c27aa8")
+	)
+	(pad "2" smd rect
+		(at 1.1125 0)
+		(size 0.625 0.83)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c2aded5f-88bf-4249-bc7c-2ea925ca9a37")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/local3D/NSVBAT54HT1G.step"

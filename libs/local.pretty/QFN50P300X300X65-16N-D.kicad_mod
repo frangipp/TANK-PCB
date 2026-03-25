@@ -367,7 +367,7 @@
 		(uuid "53f701db-2829-43fc-87dd-7034b6c53536")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/local3D/STUSB4531QTR.stp"
+	(model "${KIPRJMOD}/libs/local3D/STUSB4531QTR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

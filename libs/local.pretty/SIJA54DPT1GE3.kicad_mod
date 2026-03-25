@@ -1,0 +1,263 @@
+(footprint "SIJA54DPT1GE3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PowerPAKSO-8L Single")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0.18 0)
+		(layer "F.SilkS")
+		(uuid "963610db-912c-46cc-be50-e69084d16214")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SIJA54DPT1GE3"
+		(at 0 0.18 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b5cf778f-4d61-4d7b-ade8-a7795ef9c77b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fa2132d-c076-4c9a-8895-784c7149bdd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d85a005f-5937-4d1b-8acd-19eeaff02116")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.45 -2.185)
+		(end -2.45 -0.435)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c233b588-3cda-4f87-83de-b066be423707")
+	)
+	(fp_line
+		(start -2.45 0.865)
+		(end -2.45 2.185)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13585f5c-10ed-4845-b14f-d9a408dde5a1")
+	)
+	(fp_line
+		(start -2.45 2.185)
+		(end 2.45 2.185)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a713a6de-b71f-41ea-9c7e-c568f7b7c4d4")
+	)
+	(fp_line
+		(start 2.45 -0.435)
+		(end 2.45 -2.185)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e560fd7f-23c1-4d6b-9cd9-2c92a8989c23")
+	)
+	(fp_line
+		(start 2.45 2.185)
+		(end 2.45 0.865)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a866d6c3-0956-48f2-b6d0-74fc35e5088e")
+	)
+	(fp_rect
+		(start -2.9 -3.3)
+		(end 2.9 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a7bf5327-adb2-4d7d-a364-18875d7ff8d6")
+	)
+	(fp_line
+		(start -2.45 -2.185)
+		(end 2.45 -2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d7c5f7b-ed51-4379-bce3-7ee3a2d6413f")
+	)
+	(fp_line
+		(start -2.45 2.185)
+		(end -2.45 -2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e02b91d9-990f-4391-94e5-27ec32317dd3")
+	)
+	(fp_line
+		(start 2.45 -2.185)
+		(end 2.45 2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e87d6c1-f5ba-41a4-82b2-7553c2f17e75")
+	)
+	(fp_line
+		(start 2.45 2.185)
+		(end -2.45 2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48e0ef9c-b8f0-491b-9af6-2a6f73f7bbcf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "e850dd37-cfbe-407c-b1b1-073c389771a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.905 2.895)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "16a029a3-637b-4567-a7f5-16580d285c00")
+	)
+	(pad "2" smd roundrect
+		(at -0.635 2.895)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f8244e33-15f3-4bf9-9bf4-6023c5ae7734")
+	)
+	(pad "3" smd roundrect
+		(at 0.635 2.895)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1b4ae8c8-b56f-42be-bf22-5060fb9b2030")
+	)
+	(pad "4" smd roundrect
+		(at 1.905 2.895)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "085103e4-2c91-44f6-9168-014a479c6b70")
+	)
+	(pad "D" smd custom
+		(at 0 -0.7525 90)
+		(size 3.895 3.895)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.9475 -1.762249) (xy -1.927081 -1.864904) (xy -1.868931 -1.951931) (xy -1.781904 -2.010081)
+					(xy -1.679248 -2.030499) (xy 1.679249 -2.0305) (xy 1.781904 -2.010081) (xy 1.868931 -1.951931)
+					(xy 1.927081 -1.864904) (xy 1.947499 -1.762248) (xy 1.9475 1.762249) (xy 1.927081 1.864904) (xy 1.868931 1.951931)
+					(xy 1.781904 2.010081) (xy 1.679248 2.030499) (xy -1.679249 2.0305) (xy -1.781904 2.010081) (xy -1.868931 1.951931)
+					(xy -1.927081 1.864904) (xy -1.947499 1.762248)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.78375 -2.6255) (xy -0.723956 -2.613606) (xy -0.673265 -2.579735) (xy -0.639394 -2.529044)
+					(xy -0.6275 -2.46925) (xy -0.6275 -1.95625) (xy -0.639394 -1.896456) (xy -0.673265 -1.845765) (xy -0.723956 -1.811894)
+					(xy -0.78375 -1.8) (xy -1.09625 -1.8) (xy -1.156044 -1.811894) (xy -1.206735 -1.845765) (xy -1.240606 -1.896456)
+					(xy -1.2525 -1.95625) (xy -1.2525 -2.46925) (xy -1.240606 -2.529044) (xy -1.206735 -2.579735) (xy -1.156044 -2.613606)
+					(xy -1.09625 -2.6255)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.78375 1.8) (xy -0.723956 1.811894) (xy -0.673265 1.845765) (xy -0.639394 1.896456) (xy -0.6275 1.95625)
+					(xy -0.6275 2.46925) (xy -0.639394 2.529044) (xy -0.673265 2.579735) (xy -0.723956 2.613606) (xy -0.78375 2.6255)
+					(xy -1.09625 2.6255) (xy -1.156044 2.613606) (xy -1.206735 2.579735) (xy -1.240606 2.529044) (xy -1.2525 2.46925)
+					(xy -1.2525 1.95625) (xy -1.240606 1.896456) (xy -1.206735 1.845765) (xy -1.156044 1.811894) (xy -1.09625 1.8)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 1.5875 -2.425) (xy 1.600821 -2.49197) (xy 1.638756 -2.548744) (xy 1.69553 -2.586679) (xy 1.7625 -2.6)
+					(xy 2.1125 -2.6) (xy 2.17947 -2.586679) (xy 2.236244 -2.548744) (xy 2.274179 -2.49197) (xy 2.2875 -2.425)
+					(xy 2.2875 2.425) (xy 2.274179 2.49197) (xy 2.236244 2.548744) (xy 2.17947 2.586679) (xy 2.1125 2.6)
+					(xy 1.7625 2.6) (xy 1.69553 2.586679) (xy 1.638756 2.548744) (xy 1.600821 2.49197) (xy 1.5875 2.425)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "7b8d1f9b-713e-41fb-8bcf-ab61f0d88157")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/local3D/SQJ459EP-T2_BE3.stp"
+		(offset
+			(xyz 0 -0.1800000044 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
